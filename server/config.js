@@ -19,9 +19,9 @@ module.exports = {
             // The above is required if your VM (the machine that hosts the website stuff) doesn't support multi-ports and forces everything through the main server.
             // This also overrides the below host and port settings to be identical to the main server's host/port (by default, 3000).
 
-            host: 'kaizos-arras.onrender.com', // Server host location.
-            port: 443, // The port on the server.
-            id: 'la', // (<host>/#<id>)
+            host: 'kaizos-arras.onrender.com', 
+                port: 443,
+                id: 'la',
 
             region: "Local", // The region the server is on.
             gamemode: ['tdm'], // The selected gamemode.
