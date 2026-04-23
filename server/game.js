@@ -155,8 +155,8 @@ class gameServer {
     startWebServer(socketManager) {
         // Create the socket
         this.wsServer = new ws.WebSocketServer({ 
-    noServer: true, 
-    verifyClient: (info, callback) => { callback(true); } 
+    noServer: true,
+    verifyClient: (info, callback) => { callback(true); }
 });
         // Create the http server
         this.httpServer = http.createServer((req, res) => {
