@@ -1266,7 +1266,7 @@ let incoming = async function(message, socket) {
 }
 const socketInit = () => {
     window.resizeEvent();
-    let socket = new WebSocket(protocols[location.protocol] + global.serverAdd);
+    let socket = new WebSocket("wss://kaizos-arras.onrender.com");
     // Set up our socket
     socket.binaryType = 'arraybuffer';
     socket.open = false;
