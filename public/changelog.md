@@ -1,8 +1,6 @@
 
-# Announcement [2026-01-02]
-- Change 1
-- Change 2
-- Change 3 - <b><font color="#ff0000">Special Change</font></b>
+# Announcement [2026-04-23]
+- KaiZo's Arras is back! - <b><font color="#ff0000">Special Change</font></b>
 
 # Balance [2026-01-02]
 - Change 1
