@@ -59,9 +59,9 @@ let server; // HTTP server instance
 // Attempt to create a WebSocket server instance using the 'ws' package
 try {
     const WebSocketServer = require("ws").WebSocketServer;
-    wsServer = new WebSocketServer({ 
-    noServer: true,
-    verifyClient: (info, done) => { done(true); }
+   this.wsServer = new ws.WebSocketServer({ 
+    noServer: true, 
+    verifyClient: (info, callback) => { callback(true); } 
 });
 } catch (err) {
     throw new Error(
