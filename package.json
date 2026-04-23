@@ -1,9 +1,9 @@
 {
   "name": "open-source-arras",
   "version": "1.0.0",
-  "main": "server/index.js",
+  "main": "index.js",
   "scripts": {
-    "start": "node --no-lazy index"
+    "start": "node index.js"
   },
   "dependencies": {
     "ws": "^8.18.3"
