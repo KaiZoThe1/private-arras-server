@@ -23,7 +23,7 @@ module.exports = {
                 port: 443,
                 id: 'la',
 
-            region: "Local", // The region the server is on.
+            region: "USA", // The region the server is on.
             gamemode: ['tdm'], // The selected gamemode.
             player_cap: 80, // Not including bots. Set to 0 to disable.
 
