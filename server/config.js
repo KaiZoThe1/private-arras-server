@@ -55,7 +55,7 @@ module.exports = {
 
             properties: { // This overrides settings in the config.js file, assuming the selected gamemode doesn't also override it.
                 teams: 4,
-                bot_cap: 16,
+                bot_cap: 0,
                 server_travel_properties: {
                     loop_interval: 30_000, // how often the portal loop executes in seconds
                     portals: 3, // amount of portals to spawn
