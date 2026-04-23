@@ -429,7 +429,7 @@ class gameHandler {
         // Add new bots if arena is open
         if (!global.gameManager.arenaClosed && !global.cannotRespawn && this.bots.length < Config.bot_cap) {
             let team = Config.mode === "tdm" || Config.mode === "tag" ? getWeakestTeam(global.gameManager) : undefined,
-            limit = 20, // give up after 20 attempts and just pick whatever is currently chosen
+            limit = 0, // give up after 20 attempts and just pick whatever is currently chosen
             loc;
             do {
                 loc = getSpawnableArea(team, global.gameManager);
