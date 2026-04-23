@@ -42,7 +42,7 @@ module.exports = {
 
             host: 'localhost:3000', 
                 port: '3000',
-                id: 'la',
+                id: 'lb',
 
             region: "Local", // The region the server is on.
             gamemode: ['tdm'], // The selected gamemode.
