@@ -45,7 +45,7 @@ module.exports = {
             port: 3002, // The port on the server.
             id: 'lb', // (<host>/#<id>)
 
-            region: "Local", // The region the server is on.
+            region: "USA", // The region the server is on.
             gamemode: ['retrograde', 'ffa'], // The selected gamemode.
             player_cap: 80, // Not including bots. Set to 0 to disable.
 
@@ -95,7 +95,7 @@ module.exports = {
             port: 3003, // The port on the server.
             id: 'lx', // (<host>/#<id>)
 
-            region: "Local", // The region the server is on.
+            region: "USA", // The region the server is on.
             gamemode: ['nexus'], // The selected gamemode.
             player_cap: 80, // Not including bots. Set to 0 to disable.
 
@@ -118,7 +118,7 @@ module.exports = {
             port: 3099, // The port on the server.
             id: 'lz', // (<host>/#<id>)
 
-            region: "Local", // The region the server is on.
+            region: "USA", // The region the server is on.
             gamemode: ['sandbox'], // The selected gamemode.
             player_cap: 16, // Not including bots. Set to 0 to disable.
 
