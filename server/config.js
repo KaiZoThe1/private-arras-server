@@ -41,8 +41,9 @@ module.exports = {
             // The above is required if your VM (the machine that hosts the website stuff) doesn't support multi-ports and forces everything through the main server.
             // This also overrides the below host and port settings to be identical to the main server's host/port (by default, 3000).
 
-            host: 'localhost:3002', // Server host location.
-            port: 3002, // The port on the server.
+            // Change this for every server in the list:
+host: 'kaizos-arras.onrender.com',
+port: 443,
             id: 'lb', // (<host>/#<id>)
 
             region: "USA", // The region the server is on.
@@ -91,8 +92,9 @@ module.exports = {
             // The above is required if your VM (the machine that hosts the website stuff) doesn't support multi-ports and forces everything through the main server.
             // This also overrides the below host and port settings to be identical to the main server's host/port (by default, 3000).
 
-            host: 'localhost:3003', // Server host location.
-            port: 3003, // The port on the server.
+            // Change this for every server in the list:
+host: 'kaizos-arras.onrender.com',
+port: 443,
             id: 'lx', // (<host>/#<id>)
 
             region: "USA", // The region the server is on.
@@ -114,8 +116,9 @@ module.exports = {
             // The above is required if your VM (the machine that hosts the website stuff) doesn't support multi-ports and forces everything through the main server.
             // This also overrides the below host and port settings to be identical to the main server's host/port (by default, 3000).
 
-            host: 'localhost:3099', // Server host location.
-            port: 3099, // The port on the server.
+           // Change this for every server in the list:
+host: 'kaizos-arras.onrender.com',
+port: 443, 
             id: 'lz', // (<host>/#<id>)
 
             region: "USA", // The region the server is on.
