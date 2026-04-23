@@ -60,9 +60,9 @@ let server; // HTTP server instance
 try {
     const { WebSocketServer } = require("ws");
     wsServer = new WebSocketServer({ 
-        noServer: true, 
-        verifyClient: (info, callback) => { callback(true); } 
-    });
+    noServer: true, 
+    verifyClient: (info, callback) => { callback(true); } 
+});
 } catch (err) {
     throw new Error(
         "Package 'ws' is not installed! To install it, run 'npm install ws' in the terminal."
