@@ -35,7 +35,7 @@ module.exports = {
                 teams: 4,
                 bot_cap: 0
             }
-        }
+        },
 ],
 
     // Web Server
