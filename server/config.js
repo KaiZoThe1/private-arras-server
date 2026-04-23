@@ -184,7 +184,7 @@ module.exports = {
     tier_multiplier: 15, // Level difference between each tier.
 
     // Bots
-    bot_cap: 1, // Maximum number of bots that can be on the server. Set to 0 to disable bots.
+    bot_cap: 0, // Maximum number of bots that can be on the server. Set to 0 to disable bots.
     bot_xp_gain: 60, // How much XP bots get until they reach level_cap.
     bot_start_level: 45, // How much XP bots will receive when first created.
     bot_skill_upgrade_chances: [1, 1, 3, 4, 4, 4, 4, 2, 1, 1], // The chances of a bot upgrading a specific skill when skill upgrades are available.
