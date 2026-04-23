@@ -6,7 +6,7 @@ module.exports = {
     // Client
     main_menu: 'index.html', // Where the main menu is located (in the /public folder).
     host: 'wss://kaizos-arras.onrender.com/', // Game server domain. If the host is 'localhost:NUMBER', the NUMBER must be the port setting.
-    const port = process.env.PORT || 3000;, // Which port to run the web server on.
+    port: process.env.PORT || 10000, // Which port to run the web server on.
 
     // Server
     visible_list_interval: 250, // How often to update the list of the entities that players can see. Has effects of when entities are activated.
