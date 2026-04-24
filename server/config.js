@@ -19,11 +19,11 @@ module.exports = {
             // The above is required if your VM (the machine that hosts the website stuff) doesn't support multi-ports and forces everything through the main server.
             // This also overrides the below host and port settings to be identical to the main server's host/port (by default, 3000).
 
-            host: 'localhost:3000', 
+            host: 'localhost', 
                 port: 3000,
                 id: 'la',
 
-            region: "USA", // The region the server is on.
+            region: "Local", // The region the server is on.
             gamemode: ['tdm'], // The selected gamemode.
             player_cap: 80, // Not including bots. Set to 0 to disable.
 
