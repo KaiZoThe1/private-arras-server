@@ -5,8 +5,8 @@ module.exports = {
 
     // Client
     main_menu: 'index.html', // Where the main menu is located (in the /public folder).
-    host: 'kaizos-arras.onrender.com', // Game server domain. If the host is 'localhost:NUMBER', the NUMBER must be the port setting.
-    port: process.env.PORT || 10000, // Which port to run the web server on.
+    host: 'localhost:3000', // Game server domain. If the host is 'localhost:NUMBER', the NUMBER must be the port setting.
+    port: 3000, // Which port to run the web server on.
 
     // Server
     visible_list_interval: 250, // How often to update the list of the entities that players can see. Has effects of when entities are activated.
@@ -19,8 +19,8 @@ module.exports = {
             // The above is required if your VM (the machine that hosts the website stuff) doesn't support multi-ports and forces everything through the main server.
             // This also overrides the below host and port settings to be identical to the main server's host/port (by default, 3000).
 
-            host: 'kaizos-arras.onrender.com', 
-                port: 443,
+            host: 'localhost:3000', 
+                port: 3000,
                 id: 'la',
 
             region: "USA", // The region the server is on.
